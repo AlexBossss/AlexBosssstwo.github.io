@@ -3,6 +3,7 @@
   <meta charset="UTF-8">
   <link href="main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <title>Gulp start pattern - стартовый gulp шаблон от DL Academy</title>
 </head>
 <body>
@@ -10,11 +11,25 @@
   <a name = "header"></a>
       <div class="container">
           <p class = "header__content_strong" > БРЕНД.ru</p>
-          <a class = "header__content_italic" href="#header">Главная</a> <br>
-          <a class = "header__content_normal" href="#info">История обо мне </a><br>
-          <a class ="header__content_normal" href="">Мой блог</a><br>
-          <a class="header__content_normal" href="#links">Контакты</a><br>
-          <a href ="second_page.html" class="header__content_normal">Моя вторая страница</a>
+         <div>
+           <a class = "header__content_italic" href="#header">Главная</a> 
+        </div> 
+        
+         <div>
+           <a class = "header__content_normal" href="#info">История обо мне </a>
+        </div> 
+
+         <div>
+           <a class ="header__content_normal" href="">Мой блог</a>
+        </div> 
+
+         <div>
+           <a class="header__content_normal" href="#links">Контакты</a>
+        </div> 
+
+         <div> 
+           <a href ="second_page.html" class="header__content_normal">Моя вторая страница</a>
+        </div> 
       </div>
   </div>
   <div class = "info">
@@ -31,9 +46,17 @@
         <div class="container">
             <h2 class ="links__content_strong"> КОНТАКТЫ</h2>
             <p class="links__content_normal">
-               <a href="https://vk.com/id187885239"> Ссылка на Vk </a><br>
-               <a href="https://www.instagram.com/lexabossss/"> Ссылка на Instagram </a><br>
-                <a href=""> 89869579180</a>
+               <div class = "links__content_normal">
+                    <a href="https://vk.com/id187885239"> Ссылка на Vk </a>
+               </div>
+               <div class = "links__content_normal">
+                    <a href="https://www.instagram.com/lexabossss/"> Ссылка на Instagram </a>
+               </div>
+                
+               <div class = "links__content_normal">
+                    <a href=""> 89869579180</a>
+               </div>
+                
             </p> 
         </div>
     </div>
