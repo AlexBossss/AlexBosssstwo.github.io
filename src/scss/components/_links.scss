@@ -1,0 +1,27 @@
+.links{
+    
+    background: #23374F;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+
+    &__content_strong{ 
+        font-size: 48px;
+        height: 38px;
+        padding-top: 9px;
+        padding-bottom: 21px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        padding-top: 24px;
+        padding-bottom: 16px;
+    }
+    &__content_normal {
+        line-height: 72px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        
+    }
+    
+}

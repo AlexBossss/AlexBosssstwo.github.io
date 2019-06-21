@@ -1,0 +1,26 @@
+.info{
+    
+    background: url("../../image/block_2_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+
+    &__content_strong{ 
+        height: 49px;
+        height: 49px;
+        padding-top: 30px;
+        padding-bottom: 22px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        padding-top: 24px;
+        padding-bottom: 16px;
+    }
+    &__content_normal {
+        line-height: 72px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+    }
+}
