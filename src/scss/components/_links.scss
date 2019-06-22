@@ -1,13 +1,12 @@
 .links{
     
     background: #23374F;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     align-items: center;
     text-align: center;
 
     &__content_strong{ 
         font-size: 48px;
-       
         padding-top: 9px;
         padding-bottom: 21px;
         font-style: normal;
@@ -21,6 +20,15 @@
         font-weight: 300;
         font-size: 48px;
         margin: 0;
+        color:white !important;
         }
+        a{
+            color: white;
+            text-decoration: none;
+            &:hover {
+              text-decoration: none;
+              color: red;
+              }
+          }
     
 }

@@ -14,9 +14,8 @@ h1, h2, h3, p{
 }
 
 a {
-  text-decoration: none;
-  color: white;
+ 
   &:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   }
 }
