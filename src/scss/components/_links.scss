@@ -1,9 +1,14 @@
 .links{
     
-    background: #23374F;
+    background: #FE6262;
     color: #FFFFFF !important;
     align-items: center;
     text-align: center;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
 
     &__content_strong{ 
         font-size: 48px;
@@ -14,21 +19,17 @@
         font-size: 48px;
         margin: 0;
     }
-    &__content_normal {
-        line-height: 72px;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 48px;
-        margin: 0;
-        color:white !important;
-        }
-        a{
-            color: white;
-            text-decoration: none;
-            &:hover {
-              text-decoration: none;
-              color: red;
-              }
-          }
+    &__content_pic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 262px;
+        height: 171px;
+        background: #343434;
+    }
+
+    
+   
+ 
     
 }

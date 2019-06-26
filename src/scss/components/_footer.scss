@@ -1,16 +1,22 @@
 .footer{
    
-    background: #45B7E3; 
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: black;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
     text-align: right;
     vertical-align: middle;
+    
 
     &__content_normal {
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: 300;
-        font-size: 48px;
-        padding: 0;
-        margin:0;
+        font-size: 16px;
+        line-height: 149.8%;
+        color: #000000;
+        display: flex;
+        align-items: flex-end;
     }
  }

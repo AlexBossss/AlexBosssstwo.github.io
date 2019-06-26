@@ -44,7 +44,7 @@
 .MyBlog__article2 {
     @include article();
     &_pic{
-        background: URL("./IMG/article2_image.png");
+        background: URL("./img/article2_image.png");
         width: 655px;
         height:409;
     }
