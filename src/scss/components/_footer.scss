@@ -8,8 +8,17 @@
     text-align: right;
     vertical-align: middle;
     
+    &__content{
+        width:1120px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+    }
 
     &__content_normal {
+        margin-bottom: 37px;
+        margin-top: 37px;
         font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: 300;
