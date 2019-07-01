@@ -11,8 +11,8 @@
         font-weight: bold;
         font-size: 55px;
         line-height: 75px;
-        margin-bottom: 40px;
-        margin-top: 50px;
+        padding-bottom: 40px;
+        padding-top: 50px;
     }
 }
 
@@ -28,7 +28,7 @@
         margin-bottom: 70px;
     }
     &__text{
-        width: 840px;
+        max-width: 880px;
         font-family: "Open Sans Condensed";
         font-style: normal;
         font-weight: 300;
@@ -36,13 +36,26 @@
         line-height: 27px;
         
         &_button{
-            font-family: 'Bebas Neue Book';
+            &:hover {
+                transform: scale(1.11);
+                background-color: #ECCC00;
+            }
+            &:active{
+                background: #FFEB6C;
+                color: 000;
+            }
+            border:none;
+            font-family: 'Bebas Neue';
             font-size: 18px;
+            line-height: 24px;
+           
+            display: flex;
+            text-align: center;
             margin-top: 32px;
             width: 127px;
             height: 44px;
             background: #FFE01B;
-            border:none;
+            
 
         }
       

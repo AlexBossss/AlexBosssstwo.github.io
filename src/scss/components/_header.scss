@@ -6,6 +6,13 @@
   justify-content: space-between;
 
   &__logo{
+    width: 115px;
+    height: 47.57px;
+    background-image: url("./img/logo.png");
+    background-position: initial;
+    background-size: contain;
+    margin-top: 27px;
+    margin-bottom: 26.43px;
   }
 
   &__navigation {
@@ -26,11 +33,14 @@
     align-items: center;
 
     color: #000000;
+    &:hover{
+      text-decoration: underline;
+    }
   }
 a{
-  text-decoration: none;
+  
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: red;
     }
 }

@@ -1,31 +1,16 @@
 .footer{
-   
+    
     background: #FFFFFF;
-    color: black;
-    align-items: center;
     display: flex;
     justify-content: space-between;
-    text-align: right;
-    vertical-align: middle;
-    
-    &__content{
-        width:1120px;
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        vertical-align: middle;
-    }
-
-    &__content_normal {
-        margin-bottom: 37px;
-        margin-top: 37px;
-        font-family: 'Open Sans Condensed';
+    &__text{
+        font-family: Open Sans Condensed;
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
-        line-height: 149.8%;
-        color: #000000;
-        display: flex;
-        align-items: flex-end;
+        line-height: 22px;
+        padding-top: 34px;
+        margin-bottom: 34px;
     }
- }
+
+}

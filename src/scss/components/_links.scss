@@ -7,27 +7,28 @@
     &__content{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 20px;
+        
     }
 
     &__content_strong{ 
-        margin-top: 33px;
+        margin: 0;
+        padding-top: 33px;
         font-size: 48px;
-        padding-top: 9px;
-        padding-bottom: 21px;
+        padding-bottom: 30px;
         font-style: normal;
         font-weight: bold;
-        font-size: 48px;
+        
         
     }
     &__content_pic {
+        margin-bottom: 54px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 262px;
+        width: 280px;
         height: 171px;
         background: #343434;
-        margin-bottom: 54px;
+        
         &:hover{
             background-color: #000000;
             
@@ -37,8 +38,8 @@
         position: fixed;
         width: 100px;
         height: 100px;
-        left: 1435px;
-        top: 779px;
+        right: 305px;
+        bottom: 75px;
 
     
         background:  #FF6969;
