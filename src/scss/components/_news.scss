@@ -35,11 +35,14 @@
 
     }
     &__button{
+        
         &:hover {
+            transition: 1s;
             transform: scale(1.11);
             background-color: #ECCC00;
         }
         &:active{
+            border:none;
             background: #FFEB6C;
             color: 000;
         }

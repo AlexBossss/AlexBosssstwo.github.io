@@ -17,19 +17,26 @@
     }
     &__button{
         font-family: 'Bebas Neue';
-     
+        
         border:none;
         display: flex;
         justify-content:center;
     }
     &__button_strong{
+        &:focus{
+            border: none;
+        }
+        transition: 1s;
         font-size: 24px;
         line-height: 24px;
+       
         &:hover {
+            transition: 1s;
             transform: scale(1.11);
             background-color: #ECCC00;
         }
         &:active{
+            border:none;
             background: #FFEB6C;
             color: 000;
         }

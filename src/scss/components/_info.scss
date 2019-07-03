@@ -37,6 +37,7 @@
         
         &_button{
             &:hover {
+                transition: 1s;
                 transform: scale(1.11);
                 background-color: #ECCC00;
             }

@@ -25,19 +25,21 @@
     &__button_strong{
         
         &:hover {
+            transition: 1s;
             transform: scale(1.11);
             background-color: #ECCC00;
         }
         &:active{
             background: #FFEB6C;
             color: 000;
+            border:none;
         }
         border:none;
         align-items: center;
         width: 278px;
         height: 44px;
         background: #FFE01B;
-        margin-top: 59px;
+        margin-top: 29px;
         margin-bottom:62px;
     }
 

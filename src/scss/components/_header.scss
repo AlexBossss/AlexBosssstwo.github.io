@@ -4,8 +4,13 @@
  
   display: flex;
   justify-content: space-between;
-
+  
   &__logo{
+    transition: 1s;
+    &:hover{
+      
+      transform: scale(1.2);
+    }
     width: 115px;
     height: 47.57px;
     background-image: url("./img/logo.png");
