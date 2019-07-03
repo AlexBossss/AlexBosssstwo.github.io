@@ -3,6 +3,7 @@
     height: 486px;
     background: #FFFFFF;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
     &__pic{
         max-width: 380px;
         height: 185px;
@@ -34,14 +35,22 @@
 
     }
     &__button{
-        font-family: 'Bebas Neue';
+        &:hover {
+            transform: scale(1.11);
+            background-color: #ECCC00;
+        }
+        &:active{
+            background: #FFEB6C;
+            color: 000;
+        }
+        font-family: 'Bebas Neue' !important;
         border:none;
         margin-top: 47px;
-        max-width: 200px;
+        width: 214.77px;
         height: 44px;
         background: #FFE01B;
         margin-left: 21.11px;
-        font-size: 14px;
+        font-size: 18px !important;
         line-height: 24px;
        
     }
