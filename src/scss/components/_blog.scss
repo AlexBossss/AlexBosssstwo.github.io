@@ -18,16 +18,22 @@
     }
     &__button{
         font-family: 'Bebas Neue';
+        font-size: 18px;
         border:none;
         display: flex;
         justify-content:center;
+        color: black;
+        
     }
     &__button_strong{
         
+        display: flex;
+        justify-content:center;
+        transition: 1s;
         &:hover {
-            transition: 1s;
             transform: scale(1.11);
             background-color: #ECCC00;
+            text-decoration: none;
         }
         &:active{
             background: #FFEB6C;
@@ -43,5 +49,9 @@
         margin-bottom:62px;
     }
 
+
+}
+a:hover{
+    text-decoration: none !important;
 
 }

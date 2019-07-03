@@ -35,9 +35,17 @@
 
     }
     &__button{
-        
-        &:hover {
+        transition: 1s;
+        &_strong{
+            display: flex;
+            justify-content:center;
             transition: 1s;
+            
+
+        
+    }
+        &:hover {
+            
             transform: scale(1.11);
             background-color: #ECCC00;
         }
@@ -46,6 +54,10 @@
             background: #FFEB6C;
             color: 000;
         }
+        display: flex;
+        justify-content: center;
+        color: black;
+        align-items: center;
         font-family: 'Bebas Neue' !important;
         border:none;
         margin-top: 47px;
@@ -60,7 +72,7 @@
 
     &__date{
         margin-top: 55px;
-        font-family: Open Sans Condensed;
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: 300;
         font-size: 20px;
