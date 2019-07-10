@@ -36,24 +36,6 @@
     }
     &__button{
         transition: 1s;
-        &_strong{
-            display: flex;
-            justify-content:center;
-            transition: 1s;
-            
-
-        
-    }
-        &:hover {
-            
-            transform: scale(1.11);
-            background-color: #ECCC00;
-        }
-        &:active{
-            border:none;
-            background: #FFEB6C;
-            color: 000;
-        }
         display: flex;
         justify-content: center;
         color: black;
@@ -63,11 +45,10 @@
         margin-top: 47px;
         width: 214.77px;
         height: 44px;
-        background: #FFE01B;
+        
         margin-left: 21.11px;
         font-size: 18px !important;
-        line-height: 24px;
-       
+        line-height: 24px;        
     }
 
     &__date{
